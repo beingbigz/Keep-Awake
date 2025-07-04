@@ -1,5 +1,6 @@
-('c:\\Users\\beingbigz\\Downloads\\Software Programming\\Keep Awake\\Keep '
- 'Awake Source Code\\build\\KeepAwake\\PYZ-00.pyz',
+('c:\\Users\\beingbigz\\Documents\\AAA_personal_cooy\\Software '
+ 'Programming\\Keep Awake\\Keep Awake Source '
+ 'Code\\build\\KeepAwake\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\beingbigz\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
