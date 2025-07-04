@@ -29,7 +29,7 @@ state = {
     'tray_icon': None,
     'is_awake': False,
     'display_on': False,
-    'startup_enabled': True,  # Default is on
+    'startup_enabled': False,  # Default is off
     'shutdown_timer': None,
     'shutdown_time': None,
     'shutdown_thread': None
