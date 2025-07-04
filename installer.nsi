@@ -122,13 +122,6 @@ Section "Desktop Shortcut" SecDesktop
 
 SectionEnd
 
-; Optional section (can be disabled by the user)
-Section "Auto-start with Windows" SecStartup
-
-  CreateShortcut "$SMSTARTUP\Keep Awake.lnk" "$INSTDIR\KeepAwake.exe"
-
-SectionEnd
-
 ;--------------------------------
 ; Descriptions
 
@@ -136,14 +129,12 @@ SectionEnd
 LangString DESC_SecMain ${LANG_ENGLISH} "The main Keep Awake application."
 LangString DESC_SecStartMenu ${LANG_ENGLISH} "Create shortcuts in the Start Menu."
 LangString DESC_SecDesktop ${LANG_ENGLISH} "Create a shortcut on the Desktop."
-LangString DESC_SecStartup ${LANG_ENGLISH} "Automatically start Keep Awake when Windows starts."
 
 ; Assign language strings to sections
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMain} $(DESC_SecMain)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenu} $(DESC_SecStartMenu)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktop} $(DESC_SecDesktop)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecStartup} $(DESC_SecStartup)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
